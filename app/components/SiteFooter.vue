@@ -33,7 +33,7 @@
       <n-p depth="3">
         Copyright &copy; 2020 - {{ new Date().getFullYear() }}
         <n-text depth="3" @click="jumpLink(linkData.home)"> Mr_Onion </n-text>
-        <n-next depth="3">由Mr_Onion二次修改，使用MIT协议</n-next>
+        由Mr_Onion二次修改，使用MIT协议
         <n-text
           v-if="siteIcp"
           depth="3"
